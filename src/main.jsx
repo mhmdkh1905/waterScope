@@ -3,31 +3,24 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Home from "./components/HomePage.jsx";
-import WaterMap from "./components/WaterMap.jsx";
-import WeatherData from "./components/WeatherData.jsx";
-import Trends from "./components/Trends.jsx";
-
+import Map from "./components/MapComp/Map.jsx";
+import RealTimeData from "./components/RealTimeDataComp/RealTimeData.jsx";
+import HistoricalTrends from "./components/HistoricalTrendsComp/HistoricalTrends.jsx";
+import About from "./components/About.jsx";
+import Index from "./index.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/home",
-    element: <Home />,
-  },
-  {
-    path: "/waterMap",
-    element: <WaterMap />,
-  },
-  {
-    path: "/WeatherData",
-    element: <WeatherData />,
-  },
-  {
-    path: "/Trends",
-    element: <Trends />,
+    element: <Index />, // <- Header and Footer here
+    children: [
+      { path: "/", element: <Home /> },
+      { path: "/home", element: <Home /> },
+      { path: "/map", element: <Map /> },
+      { path: "/realTimeData", element: <RealTimeData /> },
+      { path: "/historicalTrends", element: <HistoricalTrends /> },
+      { path: "/about", element: <About /> },
+    ],
   },
 ]);
 

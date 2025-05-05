@@ -1,0 +1,516 @@
+{
+  "2015": [
+    {
+      "month": "Apr",
+      "avgTemp": 26.03
+    },
+    {
+      "month": "Aug",
+      "avgTemp": 36.7
+    },
+    {
+      "month": "Dec",
+      "avgTemp": 19.17
+    },
+    {
+      "month": "Feb",
+      "avgTemp": 18.8
+    },
+    {
+      "month": "Jan",
+      "avgTemp": 16.77
+    },
+    {
+      "month": "Jul",
+      "avgTemp": 35.22
+    },
+    {
+      "month": "Jun",
+      "avgTemp": 31.51
+    },
+    {
+      "month": "Mar",
+      "avgTemp": 23.19
+    },
+    {
+      "month": "May",
+      "avgTemp": 31.64
+    },
+    {
+      "month": "Nov",
+      "avgTemp": 25.12
+    },
+    {
+      "month": "Oct",
+      "avgTemp": 30.73
+    },
+    {
+      "month": "Sep",
+      "avgTemp": 35.76
+    }
+  ],
+  "2016": [
+    {
+      "month": "Apr",
+      "avgTemp": 30.85
+    },
+    {
+      "month": "Aug",
+      "avgTemp": 34.77
+    },
+    {
+      "month": "Dec",
+      "avgTemp": 18.12
+    },
+    {
+      "month": "Feb",
+      "avgTemp": 22.19
+    },
+    {
+      "month": "Jan",
+      "avgTemp": 16.69
+    },
+    {
+      "month": "Jul",
+      "avgTemp": 35.2
+    },
+    {
+      "month": "Jun",
+      "avgTemp": 36.1
+    },
+    {
+      "month": "Mar",
+      "avgTemp": 23.81
+    },
+    {
+      "month": "May",
+      "avgTemp": 31.21
+    },
+    {
+      "month": "Nov",
+      "avgTemp": 26.03
+    },
+    {
+      "month": "Oct",
+      "avgTemp": 32.05
+    },
+    {
+      "month": "Sep",
+      "avgTemp": 33.57
+    }
+  ],
+  "2017": [
+    {
+      "month": "Apr",
+      "avgTemp": 28.06
+    },
+    {
+      "month": "Aug",
+      "avgTemp": 35.49
+    },
+    {
+      "month": "Dec",
+      "avgTemp": 22.42
+    },
+    {
+      "month": "Feb",
+      "avgTemp": 18.56
+    },
+    {
+      "month": "Jan",
+      "avgTemp": 17.43
+    },
+    {
+      "month": "Jul",
+      "avgTemp": 36.56
+    },
+    {
+      "month": "Jun",
+      "avgTemp": 33.82
+    },
+    {
+      "month": "Mar",
+      "avgTemp": 23.3
+    },
+    {
+      "month": "May",
+      "avgTemp": 31.81
+    },
+    {
+      "month": "Nov",
+      "avgTemp": 24.86
+    },
+    {
+      "month": "Oct",
+      "avgTemp": 29.49
+    },
+    {
+      "month": "Sep",
+      "avgTemp": 33.47
+    }
+  ],
+  "2018": [
+    {
+      "month": "Apr",
+      "avgTemp": 27.85
+    },
+    {
+      "month": "Aug",
+      "avgTemp": 34.33
+    },
+    {
+      "month": "Dec",
+      "avgTemp": 19.54
+    },
+    {
+      "month": "Feb",
+      "avgTemp": 22.23
+    },
+    {
+      "month": "Jan",
+      "avgTemp": 17.41
+    },
+    {
+      "month": "Jul",
+      "avgTemp": 35.05
+    },
+    {
+      "month": "Jun",
+      "avgTemp": 33.49
+    },
+    {
+      "month": "Mar",
+      "avgTemp": 27.43
+    },
+    {
+      "month": "May",
+      "avgTemp": 33.22
+    },
+    {
+      "month": "Nov",
+      "avgTemp": 24.88
+    },
+    {
+      "month": "Oct",
+      "avgTemp": 30.5
+    },
+    {
+      "month": "Sep",
+      "avgTemp": 33.75
+    }
+  ],
+  "2019": [
+    {
+      "month": "Apr",
+      "avgTemp": 25.41
+    },
+    {
+      "month": "Aug",
+      "avgTemp": 35.55
+    },
+    {
+      "month": "Dec",
+      "avgTemp": 20.09
+    },
+    {
+      "month": "Feb",
+      "avgTemp": 19.3
+    },
+    {
+      "month": "Jan",
+      "avgTemp": 18.46
+    },
+    {
+      "month": "Jul",
+      "avgTemp": 35.34
+    },
+    {
+      "month": "Jun",
+      "avgTemp": 34.17
+    },
+    {
+      "month": "Mar",
+      "avgTemp": 20.14
+    },
+    {
+      "month": "May",
+      "avgTemp": 33.5
+    },
+    {
+      "month": "Nov",
+      "avgTemp": 27.61
+    },
+    {
+      "month": "Oct",
+      "avgTemp": 31.34
+    },
+    {
+      "month": "Sep",
+      "avgTemp": 33.28
+    }
+  ],
+  "2020": [
+    {
+      "month": "Apr",
+      "avgTemp": 25.79
+    },
+    {
+      "month": "Aug",
+      "avgTemp": 34.8
+    },
+    {
+      "month": "Dec",
+      "avgTemp": 22.24
+    },
+    {
+      "month": "Feb",
+      "avgTemp": 18.4
+    },
+    {
+      "month": "Jan",
+      "avgTemp": 16.19
+    },
+    {
+      "month": "Jul",
+      "avgTemp": 34.89
+    },
+    {
+      "month": "Jun",
+      "avgTemp": 32.65
+    },
+    {
+      "month": "Mar",
+      "avgTemp": 22.39
+    },
+    {
+      "month": "May",
+      "avgTemp": 31.99
+    },
+    {
+      "month": "Nov",
+      "avgTemp": 25.05
+    },
+    {
+      "month": "Oct",
+      "avgTemp": 33.04
+    },
+    {
+      "month": "Sep",
+      "avgTemp": 36.56
+    }
+  ],
+  "2021": [
+    {
+      "month": "Apr",
+      "avgTemp": 28.63
+    },
+    {
+      "month": "Aug",
+      "avgTemp": 36.73
+    },
+    {
+      "month": "Dec",
+      "avgTemp": 20.19
+    },
+    {
+      "month": "Feb",
+      "avgTemp": 21.49
+    },
+    {
+      "month": "Jan",
+      "avgTemp": 20.89
+    },
+    {
+      "month": "Jul",
+      "avgTemp": 35.56
+    },
+    {
+      "month": "Jun",
+      "avgTemp": 32.78
+    },
+    {
+      "month": "Mar",
+      "avgTemp": 22.61
+    },
+    {
+      "month": "May",
+      "avgTemp": 33.12
+    },
+    {
+      "month": "Nov",
+      "avgTemp": 27.9
+    },
+    {
+      "month": "Oct",
+      "avgTemp": 30.44
+    },
+    {
+      "month": "Sep",
+      "avgTemp": 32.91
+    }
+  ],
+  "2022": [
+    {
+      "month": "Apr",
+      "avgTemp": 29.71
+    },
+    {
+      "month": "Aug",
+      "avgTemp": 35.53
+    },
+    {
+      "month": "Dec",
+      "avgTemp": 21.75
+    },
+    {
+      "month": "Feb",
+      "avgTemp": 18.66
+    },
+    {
+      "month": "Jan",
+      "avgTemp": 16.55
+    },
+    {
+      "month": "Jul",
+      "avgTemp": 34.88
+    },
+    {
+      "month": "Jun",
+      "avgTemp": 33.28
+    },
+    {
+      "month": "Mar",
+      "avgTemp": 19.03
+    },
+    {
+      "month": "May",
+      "avgTemp": 30.87
+    },
+    {
+      "month": "Nov",
+      "avgTemp": 25.21
+    },
+    {
+      "month": "Oct",
+      "avgTemp": 30.3
+    },
+    {
+      "month": "Sep",
+      "avgTemp": 33.94
+    }
+  ],
+  "2023": [
+    {
+      "month": "Apr",
+      "avgTemp": 26.87
+    },
+    {
+      "month": "Aug",
+      "avgTemp": 35.71
+    },
+    {
+      "month": "Dec",
+      "avgTemp": 22.68
+    },
+    {
+      "month": "Feb",
+      "avgTemp": 17.2
+    },
+    {
+      "month": "Jan",
+      "avgTemp": 20.04
+    },
+    {
+      "month": "Jul",
+      "avgTemp": 36.62
+    },
+    {
+      "month": "Jun",
+      "avgTemp": 33.03
+    },
+    {
+      "month": "Mar",
+      "avgTemp": 23.25
+    },
+    {
+      "month": "May",
+      "avgTemp": 30.63
+    },
+    {
+      "month": "Nov",
+      "avgTemp": 27.35
+    },
+    {
+      "month": "Oct",
+      "avgTemp": 30.94
+    },
+    {
+      "month": "Sep",
+      "avgTemp": 35.18
+    }
+  ],
+  "2024": [
+    {
+      "month": "Apr",
+      "avgTemp": 29.1
+    },
+    {
+      "month": "Aug",
+      "avgTemp": 36.13
+    },
+    {
+      "month": "Dec",
+      "avgTemp": 20.59
+    },
+    {
+      "month": "Feb",
+      "avgTemp": 19.69
+    },
+    {
+      "month": "Jan",
+      "avgTemp": 19.74
+    },
+    {
+      "month": "Jul",
+      "avgTemp": 37.04
+    },
+    {
+      "month": "Jun",
+      "avgTemp": 36.91
+    },
+    {
+      "month": "Mar",
+      "avgTemp": 24.05
+    },
+    {
+      "month": "May",
+      "avgTemp": 30.64
+    },
+    {
+      "month": "Nov",
+      "avgTemp": 24.57
+    },
+    {
+      "month": "Oct",
+      "avgTemp": 29.77
+    },
+    {
+      "month": "Sep",
+      "avgTemp": 33.68
+    }
+  ],
+  "2025": [
+    {
+      "month": "Feb",
+      "avgTemp": 16.89
+    },
+    {
+      "month": "Jan",
+      "avgTemp": 20.34
+    },
+    {
+      "month": "Mar",
+      "avgTemp": 24.35
+    }
+  ]
+}

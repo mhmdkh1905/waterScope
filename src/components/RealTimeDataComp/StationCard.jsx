@@ -1,5 +1,5 @@
 import React from "react";
-import { Thermometer, CloudRain, Droplet, Sun } from "lucide-react";
+import { Thermometer, CloudRain, Droplet, Wind } from "lucide-react";
 
 // This component receives station data as props
 const StationCard = ({ 
@@ -7,7 +7,7 @@ const StationCard = ({
   temperature, 
   rainfall, 
   humidity, 
-  evaporation,
+  windSpeed,
 }) => {
   return (
     <div 
@@ -46,11 +46,11 @@ const StationCard = ({
         </div>
         
         <div className="flex items-center space-x-2">
-          <Sun className="w-4 h-4 text-yellow-500" />
-          <span className="text-sm text-gray-500">Evapor.</span>
+          <Wind className="w-4 h-4 text-blue-500" />
+          <span className="text-sm text-gray-500">Wind Speed</span>
         </div>
         <div className="text-right font-bold">
-          {evaporation} mm/d
+          {windSpeed} m/s
         </div>
       </div>
     </div>

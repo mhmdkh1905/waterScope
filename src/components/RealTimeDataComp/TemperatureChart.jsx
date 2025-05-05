@@ -1,47 +1,85 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  Tooltip,
-  Legend,
-  CartesianGrid,
-  ResponsiveContainer,
+  LineChart, Line, XAxis, YAxis, Tooltip,
+  Legend, CartesianGrid, ResponsiveContainer,
 } from "recharts";
 
-const data = [
-  { month: "Apr 2023", north: 19, central: 21, south: 23 },
-  { month: "May 2023", north: 22, central: 25, south: 27 },
-  { month: "Jun 2023", north: 25, central: 27, south: 29 },
-  { month: "Jul 2023", north: 28, central: 30, south: 32 },
-  { month: "Aug 2023", north: 29, central: 31, south: 33 },
-  { month: "Sep 2023", north: 27, central: 29, south: 31 },
-  { month: "Oct 2023", north: 25, central: 27, south: 29 },
-  { month: "Nov 2023", north: 22, central: 24, south: 26 },
-  { month: "Dec 2023", north: 19, central: 21, south: 23 },
-  { month: "Jan 2024", north: 18, central: 20, south: 22 },
-  { month: "Feb 2024", north: 19, central: 21, south: 23 },
-  { month: "Mar 2024", north: 21, central: 23, south: 25 },
-  { month: "Apr 2024", north: 23, central: 25, south: 27 },
-];
+export default function RegionalTemperatureChart() {
+  const [data, setData] = useState([]);
+  const [year, setYear] = useState("2015");
 
-export default function TemperatureChart() {
+  useEffect(() => {
+    const loadData = async () => {
+      const telAvivData = await fetch("/temperature_tel_aviv_2015_2025.json").then(res => res.json());
+      const haifaData = await fetch("/temperature_haifa_2015_2025.json").then(res => res.json());
+      const beerShevaData = await fetch("/temperature_beersheva_2015_2025.json").then(res => res.json());
+
+      const center = telAvivData[year] || [];
+      const north = haifaData[year] || [];
+      const south = beerShevaData[year] || [];
+
+      const combined = center.map((entry, i) => ({
+        month: entry.month,
+        center: entry.avgTemp,
+        north: north?.[i]?.avgTemp ?? null,
+        south: south?.[i]?.avgTemp ?? null,
+      }));
+
+      setData(combined);
+    };
+
+    loadData();
+  }, [year]);
+
   return (
-    <div className="bg-white border border-teal-100 rounded-lg p-4 shadow-sm">
-      <h3 className="text-md font-semibold text-teal-800 mb-3">
-        Monthly Average Temperatures (2023–2024)
-      </h3>
+    <div className="bg-white p-6 border rounded shadow-sm">
+      <div className="flex justify-between items-center mb-4">
+        <h2 className="text-lg font-semibold text-teal-800">
+          Avg Monthly Temperatures (Center, North, South) – {year}
+        </h2>
+        <select
+          value={year}
+          onChange={(e) => setYear(e.target.value)}
+          className="border border-gray-300 px-3 py-1 rounded text-sm"
+        >
+          {Array.from({ length: 11 }, (_, i) => {
+            const y = 2015 + i;
+            return <option key={y} value={y}>{y}</option>;
+          })}
+        </select>
+      </div>
+
       <ResponsiveContainer width="100%" height={350}>
         <LineChart data={data}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="month" />
-          <YAxis label={{ value: "Temperature (°C)", angle: -90, position: "insideLeft" }} />
+          <YAxis label={{ value: "Temperatures °C", angle: -90, position: "insideLeft" }} />
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="north" name="Northern Israel" stroke="#f97316" />
-          <Line type="monotone" dataKey="central" name="Central Israel" stroke="#0ea5e9" />
-          <Line type="monotone" dataKey="south" name="Southern Israel" stroke="#14b8a6" />
+          <Line
+            type="monotone"
+            dataKey="center"
+            name="Center (Tel Aviv)"
+            stroke="#0ea5e9"
+            strokeWidth={2}
+            dot={{ r: 4 }}
+          />
+          <Line
+            type="monotone"
+            dataKey="north"
+            name="North (Haifa)"
+            stroke="#f97316"
+            strokeWidth={2}
+            dot={{ r: 4 }}
+          />
+          <Line
+            type="monotone"
+            dataKey="south"
+            name="South (Beer Sheva)"
+            stroke="#10b981"
+            strokeWidth={2}
+            dot={{ r: 4 }}
+          />
         </LineChart>
       </ResponsiveContainer>
     </div>

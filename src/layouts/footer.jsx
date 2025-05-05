@@ -26,6 +26,15 @@ export default function Footer() {
               <li><Link to="/about" className="text-sm text-gray-500 hover:text-teal-500 transition-colors">About</Link></li>
             </ul>
           </div>
+
+          {/* Data Source section */}
+          <div>
+            <h3 className="text-lg font-semibold text-teal-600 mb-4">Data Source</h3>
+            <ul className="space-y-2">
+              <li className="text-sm text-gray-500 hover:text-teal-500 transition-colors">Israel Meteorological Service</li>
+              <li className="text-sm text-gray-500 hover:text-teal-500 transition-colors">Open Weather Map API</li>
+            </ul>
+          </div>
         </div>
         
         {/* Footer bottom section with copyright and links */}

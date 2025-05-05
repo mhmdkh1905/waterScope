@@ -1,50 +1,39 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from 'react';
 import WaterStationCardPanel from "./WaterStationCardPanel";
 import TemperatureChart from "./TemperatureChart";
 import RainfallChart from "./RainfallChart";
 import StationCard from "./StationCard";
+import { fetchWeatherForCity } from '../../services/weatherService';
+
+
+const cities = [
+  "Jerusalem",
+  "Tel Aviv",
+  "Haifa",
+  "Tiberias",
+  "Beer Sheva",
+  "Eilat",
+  "Nazareth",
+  "Safed",
+  "Acre",
+  "Ashdod",
+  "Ashkelon",
+  "Rosh HaNikra"
+];
+
 
 export default function RealTimeData() {
   const [activeTab, setActiveTab] = useState("Temperature");
-  
-  // All Weather Stations data
-  const allStations = [
-    {
-      name: "Jerusalem",
-      temperature: 26,
-      rainfall: 0,
-      humidity: 45,
-      evaporation: 7.2,
-    },
-    {
-      name: "Tel Aviv",
-      temperature: 29,
-      rainfall: 0,
-      humidity: 65,
-      evaporation: 6.8,
-    },
-    {
-      name: "Haifa",
-      temperature: 27,
-      rainfall: 0,
-      humidity: 70,
-      evaporation: 5.9,
-    },
-    {
-      name: "Beer Sheva",
-      temperature: 31,
-      rainfall: 0,
-      humidity: 35,
-      evaporation: 8.5,
-    },
-    {
-      name: "Tiberias",
-      temperature: 33,
-      rainfall: 0,
-      humidity: 50,
-      evaporation: 9.1,
-    }
-  ];
+  const [allStations, setAllStations] = useState([]);
+
+  useEffect(() => {
+    const fetchAll = async () => {
+      const data = await Promise.all(cities.map(fetchWeatherForCity));
+      setAllStations(data);
+    };
+
+    fetchAll();
+  }, []);
 
   return (
     <div className="bg-gray-50 min-h-screen py-8 px-4 md:px-10">
@@ -105,12 +94,12 @@ export default function RealTimeData() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {allStations.map((station) => (
           <StationCard
-            key={station.id}
+            key={station.name}
             name={station.name}
             temperature={station.temperature}
             rainfall={station.rainfall}
             humidity={station.humidity}
-            evaporation={station.evaporation}
+            windSpeed={station.windSpeed}
           />
         ))}
       </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {
   BarChart,
   Bar,
@@ -10,28 +10,53 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-const data = [
-  { month: "Apr 2023", north: 5, central: 3, south: 1 },
-  { month: "May 2023", north: 2, central: 1, south: 0 },
-  { month: "Jun 2023", north: 0, central: 0, south: 0 },
-  { month: "Jul 2023", north: 0, central: 0, south: 0 },
-  { month: "Aug 2023", north: 0, central: 0, south: 0 },
-  { month: "Sep 2023", north: 3, central: 2, south: 0 },
-  { month: "Oct 2023", north: 8, central: 5, south: 2 },
-  { month: "Nov 2023", north: 45, central: 35, south: 10 },
-  { month: "Dec 2023", north: 120, central: 95, south: 28 },
-  { month: "Jan 2024", north: 155, central: 120, south: 40 },
-  { month: "Feb 2024", north: 110, central: 90, south: 20 },
-  { month: "Mar 2024", north: 60, central: 45, south: 8 },
-  { month: "Apr 2024", north: 10, central: 6, south: 2 },
-];
-
 export default function RainfallChart() {
+  const [year, setYear] = useState("2023");
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const loadData = async () => {
+      const haifa = await fetch("/processed_rainfall_haifa.json").then(res => res.json());
+      const telAviv = await fetch("/processed_rainfall_tel_aviv.json").then(res => res.json());
+      const beerSheva = await fetch("/processed_rainfall_arad.json").then(res => res.json());
+
+      const haifaData = haifa[year] || [];
+      const telAvivData = telAviv[year] || [];
+      const beerShevaData = beerSheva[year] || [];
+
+      const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                      "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+      const combined = months.map((month, i) => ({
+        month,
+        north: haifaData[i]?.avgRainfall ?? 0,
+        central: telAvivData[i]?.avgRainfall ?? 0,
+        south: beerShevaData[i]?.avgRainfall ?? 0,
+      }));
+
+      setData(combined);
+    };
+
+    loadData();
+  }, [year]);
+
   return (
     <div className="bg-white border border-teal-100 rounded-lg p-4 shadow-sm">
-      <h3 className="text-md font-semibold text-teal-800 mb-3">
-        Monthly Rainfall (2023–2024)
-      </h3>
+      <div className="flex justify-between items-center mb-3">
+        <h3 className="text-md font-semibold text-teal-800">
+          Monthly Rainfall – {year}
+        </h3>
+        <select
+          value={year}
+          onChange={(e) => setYear(e.target.value)}
+          className="border border-gray-300 rounded px-3 py-1 text-sm"
+        >
+          {Array.from({ length: 11 }, (_, i) => {
+            const y = 2015 + i;
+            return <option key={y} value={y}>{y}</option>;
+          })}
+        </select>
+      </div>
       <ResponsiveContainer width="100%" height={350}>
         <BarChart data={data}>
           <CartesianGrid strokeDasharray="3 3" />
@@ -39,9 +64,9 @@ export default function RainfallChart() {
           <YAxis label={{ value: "Rainfall (mm)", angle: -90, position: "insideLeft" }} />
           <Tooltip />
           <Legend />
-          <Bar dataKey="north" name="Northern Israel" fill="#0ea5e9" />
-          <Bar dataKey="central" name="Central Israel" fill="#14b8a6" />
-          <Bar dataKey="south" name="Southern Israel" fill="#f97316" />
+          <Bar dataKey="north" name="North (Haifa)" fill="#0ea5e9" />
+          <Bar dataKey="central" name="Center (Tel Aviv)" fill="#14b8a6" />
+          <Bar dataKey="south" name="South (Beer Sheva)" fill="#f97316" />
         </BarChart>
       </ResponsiveContainer>
     </div>

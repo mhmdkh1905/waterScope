@@ -1,0 +1,516 @@
+{
+  "2015": [
+    {
+      "month": "Jan",
+      "avgRainfall": 203.8
+    },
+    {
+      "month": "Feb",
+      "avgRainfall": 168.0
+    },
+    {
+      "month": "Mar",
+      "avgRainfall": 31.62
+    },
+    {
+      "month": "Apr",
+      "avgRainfall": 73.3
+    },
+    {
+      "month": "May",
+      "avgRainfall": 2.9
+    },
+    {
+      "month": "Jun",
+      "avgRainfall": 0.33
+    },
+    {
+      "month": "Jul",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Aug",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Sep",
+      "avgRainfall": 0.33
+    },
+    {
+      "month": "Oct",
+      "avgRainfall": 54.98
+    },
+    {
+      "month": "Nov",
+      "avgRainfall": 34.23
+    },
+    {
+      "month": "Dec",
+      "avgRainfall": 52.62
+    }
+  ],
+  "2016": [
+    {
+      "month": "Jan",
+      "avgRainfall": 119.0
+    },
+    {
+      "month": "Feb",
+      "avgRainfall": 70.1
+    },
+    {
+      "month": "Mar",
+      "avgRainfall": 26.85
+    },
+    {
+      "month": "Apr",
+      "avgRainfall": 22.8
+    },
+    {
+      "month": "May",
+      "avgRainfall": 8.9
+    },
+    {
+      "month": "Jun",
+      "avgRainfall": 0.03
+    },
+    {
+      "month": "Jul",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Aug",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Sep",
+      "avgRainfall": 1.48
+    },
+    {
+      "month": "Oct",
+      "avgRainfall": 5.47
+    },
+    {
+      "month": "Nov",
+      "avgRainfall": 8.0
+    },
+    {
+      "month": "Dec",
+      "avgRainfall": 299.5
+    }
+  ],
+  "2017": [
+    {
+      "month": "Jan",
+      "avgRainfall": 98.62
+    },
+    {
+      "month": "Feb",
+      "avgRainfall": 49.33
+    },
+    {
+      "month": "Mar",
+      "avgRainfall": 32.67
+    },
+    {
+      "month": "Apr",
+      "avgRainfall": 10.75
+    },
+    {
+      "month": "May",
+      "avgRainfall": 1.68
+    },
+    {
+      "month": "Jun",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Jul",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Aug",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Sep",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Oct",
+      "avgRainfall": 59.45
+    },
+    {
+      "month": "Nov",
+      "avgRainfall": 37.12
+    },
+    {
+      "month": "Dec",
+      "avgRainfall": 68.45
+    }
+  ],
+  "2018": [
+    {
+      "month": "Jan",
+      "avgRainfall": 279.85
+    },
+    {
+      "month": "Feb",
+      "avgRainfall": 130.78
+    },
+    {
+      "month": "Mar",
+      "avgRainfall": 4.53
+    },
+    {
+      "month": "Apr",
+      "avgRainfall": 35.55
+    },
+    {
+      "month": "May",
+      "avgRainfall": 24.75
+    },
+    {
+      "month": "Jun",
+      "avgRainfall": 8.75
+    },
+    {
+      "month": "Jul",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Aug",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Sep",
+      "avgRainfall": 2.25
+    },
+    {
+      "month": "Oct",
+      "avgRainfall": 25.98
+    },
+    {
+      "month": "Nov",
+      "avgRainfall": 93.65
+    },
+    {
+      "month": "Dec",
+      "avgRainfall": 233.8
+    }
+  ],
+  "2019": [
+    {
+      "month": "Jan",
+      "avgRainfall": 166.15
+    },
+    {
+      "month": "Feb",
+      "avgRainfall": 146.07
+    },
+    {
+      "month": "Mar",
+      "avgRainfall": 115.97
+    },
+    {
+      "month": "Apr",
+      "avgRainfall": 25.62
+    },
+    {
+      "month": "May",
+      "avgRainfall": 0.17
+    },
+    {
+      "month": "Jun",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Jul",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Aug",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Sep",
+      "avgRainfall": 3.15
+    },
+    {
+      "month": "Oct",
+      "avgRainfall": 6.22
+    },
+    {
+      "month": "Nov",
+      "avgRainfall": 5.88
+    },
+    {
+      "month": "Dec",
+      "avgRainfall": 228.57
+    }
+  ],
+  "2020": [
+    {
+      "month": "Jan",
+      "avgRainfall": 340.3
+    },
+    {
+      "month": "Feb",
+      "avgRainfall": 99.42
+    },
+    {
+      "month": "Mar",
+      "avgRainfall": 85.25
+    },
+    {
+      "month": "Apr",
+      "avgRainfall": 25.8
+    },
+    {
+      "month": "May",
+      "avgRainfall": 9.0
+    },
+    {
+      "month": "Jun",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Jul",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Aug",
+      "avgRainfall": 0.25
+    },
+    {
+      "month": "Sep",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Oct",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Nov",
+      "avgRainfall": 204.3
+    },
+    {
+      "month": "Dec",
+      "avgRainfall": 101.2
+    }
+  ],
+  "2021": [
+    {
+      "month": "Jan",
+      "avgRainfall": 162.1
+    },
+    {
+      "month": "Feb",
+      "avgRainfall": 91.97
+    },
+    {
+      "month": "Mar",
+      "avgRainfall": 39.15
+    },
+    {
+      "month": "Apr",
+      "avgRainfall": 23.07
+    },
+    {
+      "month": "May",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Jun",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Jul",
+      "avgRainfall": 0.53
+    },
+    {
+      "month": "Aug",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Sep",
+      "avgRainfall": 1.02
+    },
+    {
+      "month": "Oct",
+      "avgRainfall": 5.53
+    },
+    {
+      "month": "Nov",
+      "avgRainfall": 34.6
+    },
+    {
+      "month": "Dec",
+      "avgRainfall": 174.35
+    }
+  ],
+  "2022": [
+    {
+      "month": "Jan",
+      "avgRainfall": 233.28
+    },
+    {
+      "month": "Feb",
+      "avgRainfall": 69.67
+    },
+    {
+      "month": "Mar",
+      "avgRainfall": 100.55
+    },
+    {
+      "month": "Apr",
+      "avgRainfall": 0.12
+    },
+    {
+      "month": "May",
+      "avgRainfall": 0.55
+    },
+    {
+      "month": "Jun",
+      "avgRainfall": 0.88
+    },
+    {
+      "month": "Jul",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Aug",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Sep",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Oct",
+      "avgRainfall": 7.67
+    },
+    {
+      "month": "Nov",
+      "avgRainfall": 59.52
+    },
+    {
+      "month": "Dec",
+      "avgRainfall": 61.65
+    }
+  ],
+  "2023": [
+    {
+      "month": "Jan",
+      "avgRainfall": 130.95
+    },
+    {
+      "month": "Feb",
+      "avgRainfall": 91.92
+    },
+    {
+      "month": "Mar",
+      "avgRainfall": 54.0
+    },
+    {
+      "month": "Apr",
+      "avgRainfall": 60.68
+    },
+    {
+      "month": "May",
+      "avgRainfall": 0.78
+    },
+    {
+      "month": "Jun",
+      "avgRainfall": 0.33
+    },
+    {
+      "month": "Jul",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Aug",
+      "avgRainfall": 4.4
+    },
+    {
+      "month": "Sep",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Oct",
+      "avgRainfall": 15.85
+    },
+    {
+      "month": "Nov",
+      "avgRainfall": 108.3
+    },
+    {
+      "month": "Dec",
+      "avgRainfall": 184.88
+    }
+  ],
+  "2024": [
+    {
+      "month": "Jan",
+      "avgRainfall": 304.23
+    },
+    {
+      "month": "Feb",
+      "avgRainfall": 205.15
+    },
+    {
+      "month": "Mar",
+      "avgRainfall": 33.25
+    },
+    {
+      "month": "Apr",
+      "avgRainfall": 46.15
+    },
+    {
+      "month": "May",
+      "avgRainfall": 7.9
+    },
+    {
+      "month": "Jun",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Jul",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Aug",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Sep",
+      "avgRainfall": 5.33
+    },
+    {
+      "month": "Oct",
+      "avgRainfall": 0
+    },
+    {
+      "month": "Nov",
+      "avgRainfall": 71.47
+    },
+    {
+      "month": "Dec",
+      "avgRainfall": 217.25
+    }
+  ],
+  "2025": [
+    {
+      "month": "Jan",
+      "avgRainfall": 16.48
+    },
+    {
+      "month": "Feb",
+      "avgRainfall": 73.98
+    },
+    {
+      "month": "Mar",
+      "avgRainfall": 27.85
+    }
+  ]
+}

@@ -20,6 +20,7 @@ export default function Header() {
     { name: 'Map', icon: <Map className="w-5 h-5" />, link: '/map' },
     { name: 'Real-Time Data', icon: <Database className="w-5 h-5" />, link: '/realTimeData' },
     { name: 'Historical Trends', icon: <TrendingUp className="w-5 h-5" />, link: '/historicalTrends' },
+      { name: 'Predictive Model', icon: <CloudRain className="w-5 h-5" />, link: '/predictiveModel' }, 
     { name: 'About', icon: <Info className="w-5 h-5" />, link: '/about' },
   ];
 

@@ -14,17 +14,17 @@ const LaggedCorrelationPage = () => {
         {
           name: 'haifa',
           rainPath: 'rainfall/haifa',
-          levelPath: 'waterlevel1/kinneret'
+          levelPath: 'waterlevel2/kinneret'
         },
         {
           name: 'tellaviv',
-          rainPath: 'rainfall/telaviv',
-          levelPath: 'waterlevel1/wholeisrael'
+          rainPath: 'rainfall/tellaviv',
+          levelPath: 'waterlevel2/wholeisrael'
         },
         {
           name: 'arad',
           rainPath: 'rainfall/arad',
-          levelPath: 'waterlevel1/deadsea'
+          levelPath: 'waterlevel2/deadsea'
         }
       ];
 
@@ -40,57 +40,53 @@ const LaggedCorrelationPage = () => {
           const rainfallRaw = rainSnap.exists() ? rainSnap.val() : null;
           const waterRaw = levelSnap.exists() ? levelSnap.val() : null;
 
-          console.log(`[DEBUG] ${name} → Rain data:`, rainfallRaw);
-          console.log(`[DEBUG] ${name} → Water data:`, waterRaw);
-
           if (!rainfallRaw || !waterRaw) {
             console.warn(`[WARN] Missing data for ${name}, skipping...`);
             continue;
           }
 
-          // Parse rainfall
           const rainfall = [];
           Object.entries(rainfallRaw).forEach(([year, months]) => {
-            Object.values(months).forEach(entry => {
-              if (!entry || !entry.month || entry.avgRainfall == null) return;
-              const monthNum = new Date(`${entry.month} 1, ${year}`).getMonth() + 1;
-              const date = `${year}-${monthNum.toString().padStart(2, '0')}`;
-              rainfall.push({ date, rainfall: parseFloat(entry.avgRainfall) });
+            Object.entries(months).forEach(([monthName, value]) => {
+              if (value?.avgRainfall == null) return;
+              const month = new Date(`${monthName} 1, ${year}`).getMonth() + 1;
+              const date = `${year}-${month.toString().padStart(2, '0')}`;
+              rainfall.push({ date, rainfall: parseFloat(value.avgRainfall) });
             });
           });
 
-          // Parse water level
           const waterLevel = [];
           Object.entries(waterRaw).forEach(([year, months]) => {
-            Object.values(months).forEach(entry => {
-              if (!entry || !entry.month || entry.avgRainfall == null) return;
-              const monthNum = new Date(`${entry.month} 1, ${year}`).getMonth() + 1;
-              const date = `${year}-${monthNum.toString().padStart(2, '0')}`;
-              waterLevel.push({ date, level: parseFloat(entry.avgRainfall) });
+            Object.entries(months).forEach(([monthName, value]) => {
+              if (value?.avgRainfall == null) return;
+              const month = new Date(`${monthName} 1, ${year}`).getMonth() + 1;
+              const date = `${year}-${month.toString().padStart(2, '0')}`;
+              waterLevel.push({ date, level: parseFloat(value.avgRainfall) });
             });
           });
 
-          // Merge rainfall and water level by date
           const merged = rainfall.map(r => {
             const match = waterLevel.find(w => w.date === r.date);
             return match ? { ...r, level: match.level } : null;
           }).filter(Boolean);
 
-          // Correlation with lag
           const cityCorrelations = [];
           for (let lag = 0; lag <= 7; lag++) {
             const x = merged.slice(0, merged.length - lag).map(d => d.rainfall);
             const y = merged.slice(lag).map(d => d.level);
             const n = Math.min(x.length, y.length);
             if (n === 0) continue;
+
             const avgX = x.reduce((a, b) => a + b, 0) / n;
             const avgY = y.reduce((a, b) => a + b, 0) / n;
+
             let num = 0, denX = 0, denY = 0;
             for (let i = 0; i < n; i++) {
               num += (x[i] - avgX) * (y[i] - avgY);
               denX += (x[i] - avgX) ** 2;
               denY += (y[i] - avgY) ** 2;
             }
+
             const corr = num / Math.sqrt(denX * denY);
             cityCorrelations.push({ lag, correlation: parseFloat(corr.toFixed(4)) });
           }
@@ -131,7 +127,7 @@ const LaggedCorrelationPage = () => {
       </p>
 
       {renderChart(correlations.haifa, 'Haifa Rainfall vs. Kinneret Water Level')}
-      {renderChart(correlations.telaviv, 'Tel Aviv Rainfall vs. Whole Israel Water Level')}
+      {renderChart(correlations.tellaviv, 'Tel Aviv Rainfall vs. Whole Israel Water Level')}
       {renderChart(correlations.arad, 'Arad Rainfall vs. Dead Sea Water Level')}
     </div>
   );

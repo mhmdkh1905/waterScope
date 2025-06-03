@@ -1,57 +1,71 @@
-import React from "react";
-import { MapPin, Droplets } from "lucide-react";
+import React, { useEffect, useState } from 'react';
+import { database, ref, get, child } from '../../firebase'; // adjust path if needed
 
-export default function WaterSourceInfoPanel({ selectedSource, getStatusColor, getCapacityColor }) {
+const WaterSourceInfoPanel = ({ selectedSource }) => {
+  const [capacity, setCapacity] = useState(null);
+
+  useEffect(() => {
+    if (!selectedSource) return;
+
+    const fetchCapacity = async () => {
+      const sourceKeyMap = {
+        'Dead Sea': 'deadsea',
+        'Sea of Galilee': 'kinneret',
+      };
+
+      const dbKey = sourceKeyMap[selectedSource.name];
+      if (!dbKey) {
+        setCapacity(null);
+        return;
+      }
+
+      try {
+        const dbRef = ref(database);
+        const snap = await get(child(dbRef, `waterlevel2/${dbKey}/2025`));
+        if (snap.exists()) {
+          const monthly = Object.values(snap.val());
+          const latest = monthly.at(-1); // get the last month (latest data)
+          setCapacity(latest?.avgRainfall || null);
+        } else {
+          setCapacity(null);
+        }
+      } catch (err) {
+        console.error('[ERROR] Fetching capacity:', err);
+        setCapacity(null);
+      }
+    };
+
+    fetchCapacity();
+  }, [selectedSource]);
+
+  if (!selectedSource) return null;
+
   return (
-    <div className="flex flex-col gap-6">
-      <div className="bg-white border border-teal-100 rounded-lg p-6 shadow-sm">
-        <div className="text-center mb-4">
-          <MapPin className="w-6 h-6 text-teal-500 mx-auto mb-2" />
-          <h3 className="text-xl font-semibold text-teal-700">
-            {selectedSource ? selectedSource.name : "Select a Water Source"}
-          </h3>
+    <div className="border rounded-lg p-4 shadow bg-white">
+      <h2 className="text-lg font-semibold text-teal-700 mb-2">{selectedSource.name}</h2>
+      <div className="text-sm mb-1">
+        <span className="font-medium">Type:</span> {selectedSource.type}
+      </div>
+      <div className="text-sm mb-2">
+        <span className="font-medium">Status:</span>{' '}
+        <span className={selectedSource.status === 'Drying' ? 'text-red-500' : 'text-green-600'}>
+          {selectedSource.status}
+        </span>
+      </div>
+
+      <div className="mb-2">
+        <span className="text-sm font-medium">Current Capacity:</span>
+        <div className="w-full bg-gray-200 h-4 rounded mt-1">
+          <div
+            className="bg-teal-500 h-4 rounded text-xs text-center text-white"
+            style={{ width: capacity ? `${capacity}%` : '0%' }}
+          >
+            {capacity !== null ? `${capacity}%` : 'Loading...'}
+          </div>
         </div>
-
-        {selectedSource ? (
-          <div>
-            <div className="mb-4 px-4 py-3 bg-teal-50 rounded-md">
-              <div className="mb-2">
-                <span className="text-sm text-gray-600">Type:</span>
-                <span className="ml-2 font-medium text-teal-700">{selectedSource.type}</span>
-              </div>
-              <div className="mb-2">
-                <span className="text-sm text-gray-600">Status:</span>
-                <span className={`ml-2 font-medium ${getStatusColor(selectedSource.status)}`}>
-                  {selectedSource.status}
-                </span>
-              </div>
-            </div>
-
-            <div className="mb-4">
-              <h4 className="text-sm font-medium text-gray-600 mb-2 flex items-center">
-                <Droplets className="w-4 h-4 mr-1" /> Current Capacity
-              </h4>
-              <div className="relative h-6 w-full bg-gray-200 rounded-full overflow-hidden">
-                <div
-                  className="h-full bg-teal-500 rounded-full"
-                  style={{ width: selectedSource.capacity }}
-                ></div>
-                <span
-                  className={`absolute inset-0 flex items-center justify-center text-sm font-bold ${getCapacityColor(
-                    selectedSource.capacity
-                  )}`}
-                >
-                  {selectedSource.capacity}
-                </span>
-              </div>
-            </div>
-          </div>
-        ) : (
-          <div className="text-center text-gray-500 py-4">
-            <p>Select a water source from the map to view detailed information.</p>
-          </div>
-        )}
       </div>
     </div>
   );
-}
+};
+
+export default WaterSourceInfoPanel;

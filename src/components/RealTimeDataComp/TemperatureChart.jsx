@@ -1,42 +1,54 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  Tooltip,
-  Legend,
-  CartesianGrid,
-  ResponsiveContainer,
+  LineChart, Line, XAxis, YAxis, Tooltip, Legend, CartesianGrid, ResponsiveContainer,
 } from "recharts";
-
-const data = [
-  { month: "Apr 2023", north: 19, central: 21, south: 23 },
-  { month: "May 2023", north: 22, central: 25, south: 27 },
-  { month: "Jun 2023", north: 25, central: 27, south: 29 },
-  { month: "Jul 2023", north: 28, central: 30, south: 32 },
-  { month: "Aug 2023", north: 29, central: 31, south: 33 },
-  { month: "Sep 2023", north: 27, central: 29, south: 31 },
-  { month: "Oct 2023", north: 25, central: 27, south: 29 },
-  { month: "Nov 2023", north: 22, central: 24, south: 26 },
-  { month: "Dec 2023", north: 19, central: 21, south: 23 },
-  { month: "Jan 2024", north: 18, central: 20, south: 22 },
-  { month: "Feb 2024", north: 19, central: 21, south: 23 },
-  { month: "Mar 2024", north: 21, central: 23, south: 25 },
-  { month: "Apr 2024", north: 23, central: 25, south: 27 },
-];
+import { getDatabase, ref, get, child } from "firebase/database";
 
 export default function TemperatureChart() {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const dbRef = ref(getDatabase());
+    const cities = {
+      north: ["haifa"],
+      central: ["telaviv"],
+      south: ["beersheva"],
+    };
+
+    async function fetchTempData() {
+      const yearly = {};
+      for (const [region, cityList] of Object.entries(cities)) {
+        for (const city of cityList) {
+          const snapshot = await get(child(dbRef, `temperature/${city}`));
+          if (snapshot.exists()) {
+            const years = snapshot.val();
+            Object.entries(years).forEach(([year, months]) => {
+              months.forEach((entry) => {
+                const label = `${entry.month} ${year}`;
+                if (!yearly[label]) yearly[label] = { month: label };
+                yearly[label][region] = (yearly[label][region] || 0) + (entry.avgTemp || 0);
+              });
+            });
+          }
+        }
+      }
+      const chartData = Object.values(yearly).sort((a, b) =>
+        new Date(a.month + " 01") - new Date(b.month + " 01")
+      );
+      setData(chartData);
+    }
+
+    fetchTempData();
+  }, []);
+
   return (
     <div className="bg-white border border-teal-100 rounded-lg p-4 shadow-sm">
-      <h3 className="text-md font-semibold text-teal-800 mb-3">
-        Monthly Average Temperatures (2023–2024)
-      </h3>
+      <h3 className="text-md font-semibold text-teal-800 mb-3">Monthly Avg Temperature (°C)</h3>
       <ResponsiveContainer width="100%" height={350}>
         <LineChart data={data}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="month" />
-          <YAxis label={{ value: "Temperature (°C)", angle: -90, position: "insideLeft" }} />
+          <YAxis />
           <Tooltip />
           <Legend />
           <Line type="monotone" dataKey="north" name="Northern Israel" stroke="#f97316" />

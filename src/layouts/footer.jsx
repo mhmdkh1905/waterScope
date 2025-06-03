@@ -23,6 +23,9 @@ export default function Footer() {
               <li><Link to="/map" className="text-sm text-gray-500 hover:text-teal-500 transition-colors">Interactive Map</Link></li>
               <li><Link to="/realTimeData" className="text-sm text-gray-500 hover:text-teal-500 transition-colors">Real-Time Data</Link></li>
               <li><Link to="/historicalTrends" className="text-sm text-gray-500 hover:text-teal-500 transition-colors">Historical Trends</Link></li>
+               <Link to="/predictiveModel" className="text-sm text-gray-500 hover:text-teal-500 transition-colors">
+                    Predictive Model
+                  </Link>
               <li><Link to="/about" className="text-sm text-gray-500 hover:text-teal-500 transition-colors">About</Link></li>
             </ul>
           </div>

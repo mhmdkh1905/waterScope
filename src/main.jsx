@@ -10,6 +10,8 @@ import HistoricalTrends from "./components/HistoricalTrendsComp/HistoricalTrends
 import LaggedCorrelationPage from "./components/HistoricalTrendsComp/LaggedCorrelationPage.jsx";
 import About from "./components/About.jsx";
 import Index from "./index.jsx";
+import PredictiveModel from "./components/PredictiveModelComp/PredictiveModel.jsx"; 
+
 
 const router = createBrowserRouter([
   {
@@ -21,6 +23,7 @@ const router = createBrowserRouter([
       { path: "/map", element: <Map /> },
       { path: "/realTimeData", element: <RealTimeData /> },
       { path: "/historicalTrends", element: <LaggedCorrelationPage /> },
+      { path: "/predictiveModel", element: <PredictiveModel /> }, 
       { path: "/about", element: <About /> },
     ],
   },

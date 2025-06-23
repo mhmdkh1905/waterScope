@@ -1,0 +1,67 @@
+[
+  {
+    "year": 2010,
+    "level": -213.3509753086,
+    "temperature": 22.83
+  },
+  {
+    "year": 2011,
+    "level": -213.1475561798,
+    "temperature": 20.71
+  },
+  {
+    "year": 2012,
+    "level": -212.0821961326,
+    "temperature": 21.63
+  },
+  {
+    "year": 2013,
+    "level": -210.624890411,
+    "temperature": 21.37
+  },
+  {
+    "year": 2014,
+    "level": -211.8485890411,
+    "temperature": 21.61
+  },
+  {
+    "year": 2015,
+    "level": -212.4181917808,
+    "temperature": 21.67
+  },
+  {
+    "year": 2017,
+    "level": -213.5940547945,
+    "temperature": 22.56
+  },
+  {
+    "year": 2018,
+    "level": -213.9823479452,
+    "temperature": 23.33
+  },
+  {
+    "year": 2019,
+    "level": -211.9606491713,
+    "temperature": 22.56
+  },
+  {
+    "year": 2020,
+    "level": -209.6158033241,
+    "temperature": 22.8
+  },
+  {
+    "year": 2021,
+    "level": -209.8347388889,
+    "temperature": 23.22
+  },
+  {
+    "year": 2022,
+    "level": -209.7649719888,
+    "temperature": 22.66
+  },
+  {
+    "year": 2023,
+    "level": -210.692252907,
+    "temperature": 23.57
+  }
+]

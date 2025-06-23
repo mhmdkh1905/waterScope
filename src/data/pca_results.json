@@ -1,0 +1,5 @@
+[
+  { "component": "PC1", "variance": 53.19, "description": "Water levels and rainfall interaction" },
+  { "component": "PC2", "variance": 27.47, "description": "Temperature impact on water levels" },
+  { "component": "PC3", "variance": 19.34, "description": "Residual seasonal or humidity effects" }
+]

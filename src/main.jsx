@@ -1,36 +1,44 @@
-//import { app } from './firebase.js';
-import { StrictMode } from "react";
+// src/main.jsx
+import React from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-import Home from "./components/HomePage.jsx";
-import Map from "./components/MapComp/Map.jsx";
-import RealTimeData from "./components/RealTimeDataComp/RealTimeData.jsx";
-import HistoricalTrends from "./components/HistoricalTrendsComp/HistoricalTrends.jsx";
-import LaggedCorrelationPage from "./components/HistoricalTrendsComp/LaggedCorrelationPage.jsx";
-import About from "./components/About.jsx";
-import Index from "./index.jsx";
-import PredictiveModel from "./components/PredictiveModelComp/PredictiveModel.jsx"; 
+import App from "./App";
+import 'leaflet/dist/leaflet.css';
+
+//Components
+import Home from "./components/Home";
+import OverView from "./components/OverView";
+import ArimaForcast from "./components/ArimaForcast";
+import PCAAnalysis from "./components/PCAAnalysis";
+import TrendAnalysis from "./components/TrendAnalysis";
+import ClimateImpact from "./components/ClimateImpact";
+import Data from "./components/Data";
+
+//Pages
+import MapPage from "./pages/MapPage";
 
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Index />, // <- Header and Footer here
-    children: [
-      { path: "/", element: <Home /> },
-      { path: "/home", element: <Home /> },
-      { path: "/map", element: <Map /> },
-      { path: "/realTimeData", element: <RealTimeData /> },
-      { path: "/historicalTrends", element: <LaggedCorrelationPage /> },
-      { path: "/predictiveModel", element: <PredictiveModel /> }, 
-      { path: "/about", element: <About /> },
-    ],
-  },
+	{
+		path: "/",
+		element: <App />,
+		children: [
+			{ path: "/", element: <Home /> },
+			{ path: "/home", element: <Home /> },
+			{ path: "/overView", element: <OverView /> },
+			{ path: "/arimaForcast", element: <ArimaForcast /> },
+			{ path: "/PCAAnalysis", element: <PCAAnalysis /> },
+			{ path: "/trendAnalysis", element: <TrendAnalysis /> },
+			{ path: "/climateImpact", element: <ClimateImpact /> },
+			{ path: "/map", element: <MapPage /> },
+			{ path: "/data", element: <Data /> },
+		],
+	},
 ]);
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <RouterProvider router={router} />
-  </StrictMode>
+	<React.StrictMode>
+		<RouterProvider router={router} />
+	</React.StrictMode>
 );

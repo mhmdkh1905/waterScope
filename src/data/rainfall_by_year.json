@@ -1,0 +1,1854 @@
+{
+  "1977": [
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 26.3
+    },
+    {
+      "month": "Nov",
+      "rainfall": 0.5
+    },
+    {
+      "month": "Dec",
+      "rainfall": 190.0
+    }
+  ],
+  "1978": [
+    {
+      "month": "Jan",
+      "rainfall": 80.9
+    },
+    {
+      "month": "Feb",
+      "rainfall": 33.2
+    },
+    {
+      "month": "Mar",
+      "rainfall": 64.7
+    },
+    {
+      "month": "Apr",
+      "rainfall": 12.2
+    },
+    {
+      "month": "May",
+      "rainfall": 1.5
+    },
+    {
+      "month": "Jun",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 19.1
+    },
+    {
+      "month": "Nov",
+      "rainfall": 3.7
+    },
+    {
+      "month": "Dec",
+      "rainfall": 60.4
+    }
+  ],
+  "1979": [
+    {
+      "month": "Jan",
+      "rainfall": 37.5
+    },
+    {
+      "month": "Feb",
+      "rainfall": 24.3
+    },
+    {
+      "month": "Mar",
+      "rainfall": 39.4
+    },
+    {
+      "month": "Apr",
+      "rainfall": 12.5
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 13.3
+    },
+    {
+      "month": "Nov",
+      "rainfall": 72.2
+    },
+    {
+      "month": "Dec",
+      "rainfall": 222.3
+    }
+  ],
+  "1980": [
+    {
+      "month": "Jan",
+      "rainfall": 121.8
+    },
+    {
+      "month": "Feb",
+      "rainfall": 107.0
+    },
+    {
+      "month": "Mar",
+      "rainfall": 80.9
+    },
+    {
+      "month": "Apr",
+      "rainfall": 45.8
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 16.8
+    },
+    {
+      "month": "Nov",
+      "rainfall": 9.8
+    },
+    {
+      "month": "Dec",
+      "rainfall": 118.9
+    }
+  ],
+  "1981": [
+    {
+      "month": "Jan",
+      "rainfall": 175.8
+    },
+    {
+      "month": "Feb",
+      "rainfall": 83.7
+    },
+    {
+      "month": "Mar",
+      "rainfall": 31.8
+    },
+    {
+      "month": "Apr",
+      "rainfall": 26.3
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 0.30000000000000004
+    },
+    {
+      "month": "Nov",
+      "rainfall": 41.0
+    },
+    {
+      "month": "Dec",
+      "rainfall": 7.9
+    }
+  ],
+  "1982": [
+    {
+      "month": "Jan",
+      "rainfall": 34.1
+    },
+    {
+      "month": "Feb",
+      "rainfall": 60.6
+    },
+    {
+      "month": "Mar",
+      "rainfall": 61.3
+    },
+    {
+      "month": "Apr",
+      "rainfall": 7.2
+    },
+    {
+      "month": "May",
+      "rainfall": 9.3
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 3.2
+    },
+    {
+      "month": "Nov",
+      "rainfall": 78.8
+    },
+    {
+      "month": "Dec",
+      "rainfall": 109.5
+    }
+  ],
+  "1983": [
+    {
+      "month": "Jan",
+      "rainfall": 120.4
+    },
+    {
+      "month": "Feb",
+      "rainfall": 134.6
+    },
+    {
+      "month": "Mar",
+      "rainfall": 81.8
+    },
+    {
+      "month": "Apr",
+      "rainfall": 20.8
+    },
+    {
+      "month": "May",
+      "rainfall": 8.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Nov",
+      "rainfall": 64.8
+    },
+    {
+      "month": "Dec",
+      "rainfall": 13.6
+    }
+  ],
+  "1984": [
+    {
+      "month": "Jan",
+      "rainfall": 88.5
+    },
+    {
+      "month": "Feb",
+      "rainfall": 30.3
+    },
+    {
+      "month": "Mar",
+      "rainfall": 74.3
+    },
+    {
+      "month": "Apr",
+      "rainfall": 63.8
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 21.0
+    },
+    {
+      "month": "Nov",
+      "rainfall": 80.0
+    },
+    {
+      "month": "Dec",
+      "rainfall": 67.0
+    }
+  ],
+  "1985": [
+    {
+      "month": "Jan",
+      "rainfall": 44.0
+    },
+    {
+      "month": "Feb",
+      "rainfall": 113.3
+    },
+    {
+      "month": "Mar",
+      "rainfall": 9.2
+    },
+    {
+      "month": "Apr",
+      "rainfall": 45.3
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 6.9
+    },
+    {
+      "month": "Nov",
+      "rainfall": 10.4
+    },
+    {
+      "month": "Dec",
+      "rainfall": 49.0
+    }
+  ],
+  "1986": [
+    {
+      "month": "Jan",
+      "rainfall": 83.1
+    },
+    {
+      "month": "Feb",
+      "rainfall": 81.3
+    },
+    {
+      "month": "Mar",
+      "rainfall": 17.6
+    },
+    {
+      "month": "Apr",
+      "rainfall": 16.5
+    },
+    {
+      "month": "May",
+      "rainfall": 35.9
+    },
+    {
+      "month": "Jun",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 39.3
+    },
+    {
+      "month": "Nov",
+      "rainfall": 165.5
+    },
+    {
+      "month": "Dec",
+      "rainfall": 79.7
+    }
+  ],
+  "1987": [
+    {
+      "month": "Jan",
+      "rainfall": 44.6
+    },
+    {
+      "month": "Feb",
+      "rainfall": 27.9
+    },
+    {
+      "month": "Mar",
+      "rainfall": 62.3
+    },
+    {
+      "month": "Apr",
+      "rainfall": 5.4
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 21.5
+    },
+    {
+      "month": "Nov",
+      "rainfall": 6.0
+    },
+    {
+      "month": "Dec",
+      "rainfall": 127.1
+    }
+  ],
+  "1988": [
+    {
+      "month": "Jan",
+      "rainfall": 93.4
+    },
+    {
+      "month": "Feb",
+      "rainfall": 91.6
+    },
+    {
+      "month": "Mar",
+      "rainfall": 69.8
+    },
+    {
+      "month": "Apr",
+      "rainfall": 12.2
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 3.6
+    },
+    {
+      "month": "Nov",
+      "rainfall": 45.0
+    },
+    {
+      "month": "Dec",
+      "rainfall": 99.6
+    }
+  ],
+  "1989": [
+    {
+      "month": "Jan",
+      "rainfall": 26.9
+    },
+    {
+      "month": "Feb",
+      "rainfall": 28.7
+    },
+    {
+      "month": "Mar",
+      "rainfall": 45.7
+    },
+    {
+      "month": "Apr",
+      "rainfall": 2.1
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 18.3
+    },
+    {
+      "month": "Nov",
+      "rainfall": 73.4
+    },
+    {
+      "month": "Dec",
+      "rainfall": 58.8
+    }
+  ],
+  "1990": [
+    {
+      "month": "Jan",
+      "rainfall": 135.1
+    },
+    {
+      "month": "Feb",
+      "rainfall": 64.6
+    },
+    {
+      "month": "Mar",
+      "rainfall": 51.8
+    },
+    {
+      "month": "Apr",
+      "rainfall": 30.2
+    },
+    {
+      "month": "May",
+      "rainfall": 0.30000000000000004
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 10.4
+    },
+    {
+      "month": "Nov",
+      "rainfall": 22.8
+    },
+    {
+      "month": "Dec",
+      "rainfall": 18.9
+    }
+  ],
+  "1991": [
+    {
+      "month": "Jan",
+      "rainfall": 120.8
+    },
+    {
+      "month": "Feb",
+      "rainfall": 44.2
+    },
+    {
+      "month": "Mar",
+      "rainfall": 93.9
+    },
+    {
+      "month": "Apr",
+      "rainfall": 16.9
+    },
+    {
+      "month": "May",
+      "rainfall": 0.4
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 3.1
+    },
+    {
+      "month": "Nov",
+      "rainfall": 88.7
+    },
+    {
+      "month": "Dec",
+      "rainfall": 191.3
+    }
+  ],
+  "1992": [
+    {
+      "month": "Jan",
+      "rainfall": 175.3
+    },
+    {
+      "month": "Feb",
+      "rainfall": 250.8
+    },
+    {
+      "month": "Mar",
+      "rainfall": 18.2
+    },
+    {
+      "month": "Apr",
+      "rainfall": 0.9
+    },
+    {
+      "month": "May",
+      "rainfall": 6.4
+    },
+    {
+      "month": "Jun",
+      "rainfall": 3.7
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Nov",
+      "rainfall": 77.4
+    },
+    {
+      "month": "Dec",
+      "rainfall": 195.6
+    }
+  ],
+  "1993": [
+    {
+      "month": "Jan",
+      "rainfall": 53.1
+    },
+    {
+      "month": "Feb",
+      "rainfall": 58.3
+    },
+    {
+      "month": "Mar",
+      "rainfall": 40.4
+    },
+    {
+      "month": "Apr",
+      "rainfall": 0.0
+    },
+    {
+      "month": "May",
+      "rainfall": 10.1
+    },
+    {
+      "month": "Jun",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 4.3
+    },
+    {
+      "month": "Nov",
+      "rainfall": 10.2
+    },
+    {
+      "month": "Dec",
+      "rainfall": 3.9
+    }
+  ],
+  "1994": [
+    {
+      "month": "Jan",
+      "rainfall": 98.5
+    },
+    {
+      "month": "Feb",
+      "rainfall": 75.6
+    },
+    {
+      "month": "Mar",
+      "rainfall": 61.6
+    },
+    {
+      "month": "Apr",
+      "rainfall": 1.1
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.2
+    },
+    {
+      "month": "Oct",
+      "rainfall": 8.5
+    },
+    {
+      "month": "Nov",
+      "rainfall": 130.6
+    },
+    {
+      "month": "Dec",
+      "rainfall": 87.3
+    }
+  ],
+  "1995": [
+    {
+      "month": "Jan",
+      "rainfall": 28.9
+    },
+    {
+      "month": "Feb",
+      "rainfall": 115.1
+    },
+    {
+      "month": "Mar",
+      "rainfall": 17.4
+    },
+    {
+      "month": "Apr",
+      "rainfall": 18.1
+    },
+    {
+      "month": "May",
+      "rainfall": 2.7
+    },
+    {
+      "month": "Jul",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 0.2
+    },
+    {
+      "month": "Nov",
+      "rainfall": 47.7
+    },
+    {
+      "month": "Dec",
+      "rainfall": 38.7
+    }
+  ],
+  "1996": [
+    {
+      "month": "Jan",
+      "rainfall": 116.4
+    },
+    {
+      "month": "Feb",
+      "rainfall": 43.7
+    },
+    {
+      "month": "Mar",
+      "rainfall": 109.8
+    },
+    {
+      "month": "Apr",
+      "rainfall": 16.5
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 41.1
+    },
+    {
+      "month": "Nov",
+      "rainfall": 14.7
+    },
+    {
+      "month": "Dec",
+      "rainfall": 62.6
+    }
+  ],
+  "1997": [
+    {
+      "month": "Jan",
+      "rainfall": 71.3
+    },
+    {
+      "month": "Feb",
+      "rainfall": 142.9
+    },
+    {
+      "month": "Mar",
+      "rainfall": 72.5
+    },
+    {
+      "month": "Apr",
+      "rainfall": 7.9
+    },
+    {
+      "month": "May",
+      "rainfall": 2.7
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.5
+    },
+    {
+      "month": "Oct",
+      "rainfall": 6.0
+    },
+    {
+      "month": "Nov",
+      "rainfall": 40.7
+    },
+    {
+      "month": "Dec",
+      "rainfall": 98.9
+    }
+  ],
+  "1998": [
+    {
+      "month": "Jan",
+      "rainfall": 134.8
+    },
+    {
+      "month": "Feb",
+      "rainfall": 45.1
+    },
+    {
+      "month": "Mar",
+      "rainfall": 93.1
+    },
+    {
+      "month": "Apr",
+      "rainfall": 27.5
+    },
+    {
+      "month": "May",
+      "rainfall": 5.8
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 2.4
+    },
+    {
+      "month": "Nov",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Dec",
+      "rainfall": 76.8
+    }
+  ],
+  "1999": [
+    {
+      "month": "Jan",
+      "rainfall": 61.7
+    },
+    {
+      "month": "Feb",
+      "rainfall": 28.3
+    },
+    {
+      "month": "Mar",
+      "rainfall": 22.6
+    },
+    {
+      "month": "Apr",
+      "rainfall": 36.0
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Nov",
+      "rainfall": 1.7000000000000002
+    },
+    {
+      "month": "Dec",
+      "rainfall": 42.3
+    }
+  ],
+  "2000": [
+    {
+      "month": "Jan",
+      "rainfall": 220.7
+    },
+    {
+      "month": "Feb",
+      "rainfall": 56.0
+    },
+    {
+      "month": "Mar",
+      "rainfall": 49.2
+    },
+    {
+      "month": "Apr",
+      "rainfall": 0.9
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 8.1
+    },
+    {
+      "month": "Oct",
+      "rainfall": 33.9
+    },
+    {
+      "month": "Nov",
+      "rainfall": 9.2
+    },
+    {
+      "month": "Dec",
+      "rainfall": 84.4
+    }
+  ],
+  "2001": [
+    {
+      "month": "Jan",
+      "rainfall": 46.4
+    },
+    {
+      "month": "Feb",
+      "rainfall": 70.9
+    },
+    {
+      "month": "Mar",
+      "rainfall": 5.5
+    },
+    {
+      "month": "Apr",
+      "rainfall": 2.6
+    },
+    {
+      "month": "May",
+      "rainfall": 21.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 2.0
+    },
+    {
+      "month": "Nov",
+      "rainfall": 36.7
+    },
+    {
+      "month": "Dec",
+      "rainfall": 117.2
+    }
+  ],
+  "2002": [
+    {
+      "month": "Jan",
+      "rainfall": 101.3
+    },
+    {
+      "month": "Feb",
+      "rainfall": 47.3
+    },
+    {
+      "month": "Mar",
+      "rainfall": 80.2
+    },
+    {
+      "month": "Apr",
+      "rainfall": 55.5
+    },
+    {
+      "month": "May",
+      "rainfall": 5.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 6.3
+    },
+    {
+      "month": "Nov",
+      "rainfall": 26.1
+    },
+    {
+      "month": "Dec",
+      "rainfall": 164.7
+    }
+  ],
+  "2003": [
+    {
+      "month": "Jan",
+      "rainfall": 65.4
+    },
+    {
+      "month": "Feb",
+      "rainfall": 222.0
+    },
+    {
+      "month": "Mar",
+      "rainfall": 112.2
+    },
+    {
+      "month": "Apr",
+      "rainfall": 5.7
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Nov",
+      "rainfall": 27.3
+    },
+    {
+      "month": "Dec",
+      "rainfall": 79.4
+    }
+  ],
+  "2004": [
+    {
+      "month": "Jan",
+      "rainfall": 173.1
+    },
+    {
+      "month": "Feb",
+      "rainfall": 65.2
+    },
+    {
+      "month": "Mar",
+      "rainfall": 5.1
+    },
+    {
+      "month": "Apr",
+      "rainfall": 0.7000000000000001
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 23.1
+    },
+    {
+      "month": "Nov",
+      "rainfall": 75.7
+    },
+    {
+      "month": "Dec",
+      "rainfall": 27.2
+    }
+  ],
+  "2005": [
+    {
+      "month": "Jan",
+      "rainfall": 68.4
+    },
+    {
+      "month": "Feb",
+      "rainfall": 97.2
+    },
+    {
+      "month": "Mar",
+      "rainfall": 22.4
+    },
+    {
+      "month": "Apr",
+      "rainfall": 2.3
+    },
+    {
+      "month": "May",
+      "rainfall": 5.3
+    },
+    {
+      "month": "Jun",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Jul",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Aug",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 11.2
+    },
+    {
+      "month": "Nov",
+      "rainfall": 32.6
+    },
+    {
+      "month": "Dec",
+      "rainfall": 80.5
+    }
+  ],
+  "2006": [
+    {
+      "month": "Jan",
+      "rainfall": 72.3
+    },
+    {
+      "month": "Feb",
+      "rainfall": 56.5
+    },
+    {
+      "month": "Mar",
+      "rainfall": 3.4
+    },
+    {
+      "month": "Apr",
+      "rainfall": 30.2
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 36.2
+    },
+    {
+      "month": "Nov",
+      "rainfall": 6.7
+    },
+    {
+      "month": "Dec",
+      "rainfall": 24.4
+    }
+  ],
+  "2007": [
+    {
+      "month": "Jan",
+      "rainfall": 60.3
+    },
+    {
+      "month": "Feb",
+      "rainfall": 100.4
+    },
+    {
+      "month": "Mar",
+      "rainfall": 42.1
+    },
+    {
+      "month": "Apr",
+      "rainfall": 11.0
+    },
+    {
+      "month": "May",
+      "rainfall": 6.5
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Nov",
+      "rainfall": 47.3
+    },
+    {
+      "month": "Dec",
+      "rainfall": 55.3
+    }
+  ],
+  "2008": [
+    {
+      "month": "Jan",
+      "rainfall": 78.4
+    },
+    {
+      "month": "Feb",
+      "rainfall": 70.5
+    },
+    {
+      "month": "Mar",
+      "rainfall": 2.1
+    },
+    {
+      "month": "Apr",
+      "rainfall": 0.0
+    },
+    {
+      "month": "May",
+      "rainfall": 8.5
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.8
+    },
+    {
+      "month": "Oct",
+      "rainfall": 34.3
+    },
+    {
+      "month": "Nov",
+      "rainfall": 25.8
+    },
+    {
+      "month": "Dec",
+      "rainfall": 64.4
+    }
+  ],
+  "2009": [
+    {
+      "month": "Jan",
+      "rainfall": 15.2
+    },
+    {
+      "month": "Feb",
+      "rainfall": 177.1
+    },
+    {
+      "month": "Mar",
+      "rainfall": 35.7
+    },
+    {
+      "month": "Apr",
+      "rainfall": 3.2
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 6.5
+    },
+    {
+      "month": "Oct",
+      "rainfall": 44.1
+    },
+    {
+      "month": "Nov",
+      "rainfall": 65.8
+    },
+    {
+      "month": "Dec",
+      "rainfall": 114.7
+    }
+  ],
+  "2010": [
+    {
+      "month": "Jan",
+      "rainfall": 92.0
+    },
+    {
+      "month": "Feb",
+      "rainfall": 50.7
+    },
+    {
+      "month": "Mar",
+      "rainfall": 0.2
+    },
+    {
+      "month": "Apr",
+      "rainfall": 2.4
+    },
+    {
+      "month": "May",
+      "rainfall": 0.6000000000000001
+    },
+    {
+      "month": "Jun",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Nov",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Dec",
+      "rainfall": 117.3
+    }
+  ],
+  "2011": [
+    {
+      "month": "Jan",
+      "rainfall": 54.9
+    },
+    {
+      "month": "Feb",
+      "rainfall": 87.8
+    },
+    {
+      "month": "Mar",
+      "rainfall": 53.8
+    },
+    {
+      "month": "Apr",
+      "rainfall": 60.1
+    },
+    {
+      "month": "May",
+      "rainfall": 8.4
+    },
+    {
+      "month": "Jun",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 6.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Nov",
+      "rainfall": 79.8
+    },
+    {
+      "month": "Dec",
+      "rainfall": 27.5
+    }
+  ],
+  "2012": [
+    {
+      "month": "Jan",
+      "rainfall": 130.2
+    },
+    {
+      "month": "Feb",
+      "rainfall": 85.3
+    },
+    {
+      "month": "Mar",
+      "rainfall": 36.1
+    },
+    {
+      "month": "Apr",
+      "rainfall": 0.0
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 30.2
+    },
+    {
+      "month": "Nov",
+      "rainfall": 66.0
+    },
+    {
+      "month": "Dec",
+      "rainfall": 90.4
+    }
+  ],
+  "2013": [
+    {
+      "month": "Jan",
+      "rainfall": 187.9
+    },
+    {
+      "month": "Feb",
+      "rainfall": 12.5
+    },
+    {
+      "month": "Mar",
+      "rainfall": 2.8
+    },
+    {
+      "month": "Apr",
+      "rainfall": 38.7
+    },
+    {
+      "month": "May",
+      "rainfall": 17.4
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 0.2
+    },
+    {
+      "month": "Nov",
+      "rainfall": 1.5
+    },
+    {
+      "month": "Dec",
+      "rainfall": 104.2
+    }
+  ],
+  "2014": [
+    {
+      "month": "Jan",
+      "rainfall": 13.3
+    },
+    {
+      "month": "Feb",
+      "rainfall": 1.9
+    },
+    {
+      "month": "Mar",
+      "rainfall": 56.5
+    },
+    {
+      "month": "Apr",
+      "rainfall": 0.1
+    },
+    {
+      "month": "May",
+      "rainfall": 36.2
+    },
+    {
+      "month": "Jun",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Aug",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.2
+    },
+    {
+      "month": "Oct",
+      "rainfall": 30.8
+    },
+    {
+      "month": "Nov",
+      "rainfall": 100.2
+    },
+    {
+      "month": "Dec",
+      "rainfall": 35.2
+    }
+  ],
+  "2015": [
+    {
+      "month": "Jan",
+      "rainfall": 105.1
+    },
+    {
+      "month": "Feb",
+      "rainfall": 119.3
+    },
+    {
+      "month": "Mar",
+      "rainfall": 16.1
+    },
+    {
+      "month": "Apr",
+      "rainfall": 30.1
+    },
+    {
+      "month": "May",
+      "rainfall": 0.4
+    },
+    {
+      "month": "Aug",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    }
+  ],
+  "2017": [
+    {
+      "month": "Aug",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 6.0
+    },
+    {
+      "month": "Nov",
+      "rainfall": 9.3
+    },
+    {
+      "month": "Dec",
+      "rainfall": 23.8
+    }
+  ],
+  "2018": [
+    {
+      "month": "Jan",
+      "rainfall": 155.0
+    },
+    {
+      "month": "Feb",
+      "rainfall": 102.7
+    },
+    {
+      "month": "Mar",
+      "rainfall": 7.4
+    },
+    {
+      "month": "Apr",
+      "rainfall": 69.1
+    },
+    {
+      "month": "May",
+      "rainfall": 5.0
+    },
+    {
+      "month": "Jun",
+      "rainfall": 1.0
+    },
+    {
+      "month": "Aug",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 4.0
+    },
+    {
+      "month": "Nov",
+      "rainfall": 57.2
+    },
+    {
+      "month": "Dec",
+      "rainfall": 125.2
+    }
+  ],
+  "2019": [
+    {
+      "month": "Jan",
+      "rainfall": 144.3
+    },
+    {
+      "month": "Feb",
+      "rainfall": 99.9
+    },
+    {
+      "month": "Mar",
+      "rainfall": 64.0
+    },
+    {
+      "month": "Apr",
+      "rainfall": 30.1
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Jun",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Aug",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 1.1
+    },
+    {
+      "month": "Nov",
+      "rainfall": 2.7
+    },
+    {
+      "month": "Dec",
+      "rainfall": 135.6
+    }
+  ],
+  "2020": [
+    {
+      "month": "Jan",
+      "rainfall": 198.6
+    },
+    {
+      "month": "Feb",
+      "rainfall": 51.2
+    },
+    {
+      "month": "Mar",
+      "rainfall": 50.1
+    },
+    {
+      "month": "Apr",
+      "rainfall": 25.7
+    },
+    {
+      "month": "May",
+      "rainfall": 12.8
+    },
+    {
+      "month": "Jun",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Aug",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Nov",
+      "rainfall": 122.0
+    },
+    {
+      "month": "Dec",
+      "rainfall": 70.0
+    }
+  ],
+  "2021": [
+    {
+      "month": "Jan",
+      "rainfall": 90.9
+    },
+    {
+      "month": "Feb",
+      "rainfall": 91.9
+    },
+    {
+      "month": "Mar",
+      "rainfall": 18.7
+    },
+    {
+      "month": "Apr",
+      "rainfall": 5.1
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Aug",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 1.9
+    },
+    {
+      "month": "Nov",
+      "rainfall": 18.4
+    },
+    {
+      "month": "Dec",
+      "rainfall": 89.5
+    }
+  ],
+  "2022": [
+    {
+      "month": "Jan",
+      "rainfall": 102.2
+    },
+    {
+      "month": "Feb",
+      "rainfall": 49.1
+    },
+    {
+      "month": "Mar",
+      "rainfall": 69.5
+    },
+    {
+      "month": "Apr",
+      "rainfall": 0.0
+    },
+    {
+      "month": "May",
+      "rainfall": 0.30000000000000004
+    },
+    {
+      "month": "Jun",
+      "rainfall": 0.5
+    },
+    {
+      "month": "Aug",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 3.2
+    },
+    {
+      "month": "Nov",
+      "rainfall": 54.8
+    },
+    {
+      "month": "Dec",
+      "rainfall": 27.9
+    }
+  ],
+  "2023": [
+    {
+      "month": "Jan",
+      "rainfall": 76.7
+    },
+    {
+      "month": "Feb",
+      "rainfall": 89.3
+    },
+    {
+      "month": "Mar",
+      "rainfall": 53.8
+    },
+    {
+      "month": "Apr",
+      "rainfall": 44.1
+    },
+    {
+      "month": "May",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Jun",
+      "rainfall": 1.8
+    },
+    {
+      "month": "Aug",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 8.8
+    },
+    {
+      "month": "Nov",
+      "rainfall": 53.5
+    },
+    {
+      "month": "Dec",
+      "rainfall": 128.7
+    }
+  ],
+  "2024": [
+    {
+      "month": "Jan",
+      "rainfall": 174.3
+    },
+    {
+      "month": "Feb",
+      "rainfall": 121.3
+    },
+    {
+      "month": "Mar",
+      "rainfall": 49.4
+    },
+    {
+      "month": "Apr",
+      "rainfall": 19.8
+    },
+    {
+      "month": "May",
+      "rainfall": 14.8
+    },
+    {
+      "month": "Jun",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Aug",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Sep",
+      "rainfall": 2.0
+    },
+    {
+      "month": "Oct",
+      "rainfall": 0.0
+    },
+    {
+      "month": "Nov",
+      "rainfall": 21.7
+    },
+    {
+      "month": "Dec",
+      "rainfall": 106.9
+    }
+  ],
+  "2025": [
+    {
+      "month": "Jan",
+      "rainfall": 12.2
+    },
+    {
+      "month": "Feb",
+      "rainfall": 20.6
+    },
+    {
+      "month": "Mar",
+      "rainfall": 10.7
+    },
+    {
+      "month": "Apr",
+      "rainfall": 2.8
+    }
+  ]
+}

@@ -33,7 +33,7 @@ const jsonFiles = [
   },
 ];
 
-const Data = () => {
+const DataPage = () => {
   return (
     <div className="min-h-screen bg-blue-50 py-10 px-4">
       <h2 className="text-3xl font-bold text-center text-blue-700 mb-8">
@@ -62,4 +62,4 @@ const Data = () => {
   );
 };
 
-export default Data;
+export default DataPage;

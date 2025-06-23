@@ -34,8 +34,8 @@ const Header = () => {
 			icon: CloudRain,
 		},
 		{
-  id: "data",
-  path: "data",
+  id: "dataPage",
+  path: "dataPage",
   label: "Kinneret Data",
   icon: Folder  
 },

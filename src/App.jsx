@@ -1,8 +1,8 @@
 // App.jsx
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Footer from "./layouts/Footer";
 import Header from "./layouts/header";
+import Footer from "./layouts/footer";
 
 
 const App = () => (

@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import {
 	TrendingUp,
 	BarChart3,
-	Folder ,
+	Folder,
 	Activity,
 	CloudRain,
 	Waves,
@@ -34,11 +34,11 @@ const Header = () => {
 			icon: CloudRain,
 		},
 		{
-  id: "dataPage",
-  path: "dataPage",
-  label: "Kinneret Data",
-  icon: Folder  
-},
+			id: "dataPage",
+			path: "dataPage",
+			label: "Kinneret Data",
+			icon: Folder,
+		},
 	];
 
 	return (

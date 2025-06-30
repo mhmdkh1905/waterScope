@@ -4,7 +4,7 @@
     "forecast_level": -211.29,
     "range": 1
   },
-  {
+ {
     "date": "2025-07-01",
     "forecast_level": -211.29,
     "range": 3
@@ -16,7 +16,7 @@
   },
   {
     "date": "2025-09-01",
-    "forecast_level": -211.3,
+    "forecast_level": -211.25,
     "range": 3
   },
   {
@@ -31,22 +31,22 @@
   },
   {
     "date": "2025-09-01",
-    "forecast_level": -211.3,
+    "forecast_level": -211.25,
     "range": 6
   },
   {
     "date": "2025-10-01",
-    "forecast_level": -211.3,
+    "forecast_level": -211.23,
     "range": 6
   },
   {
     "date": "2025-11-01",
-    "forecast_level": -211.31,
+    "forecast_level": -211.21,
     "range": 6
   },
   {
     "date": "2025-12-01",
-    "forecast_level": -211.31,
+    "forecast_level": -211.19,
     "range": 6
   },
   {
@@ -61,47 +61,47 @@
   },
   {
     "date": "2025-09-01",
-    "forecast_level": -211.3,
+    "forecast_level": -211.25,
     "range": 12
   },
   {
     "date": "2025-10-01",
-    "forecast_level": -211.3,
+    "forecast_level": -211.23,
     "range": 12
   },
   {
     "date": "2025-11-01",
-    "forecast_level": -211.31,
+    "forecast_level": -211.21,
     "range": 12
   },
   {
     "date": "2025-12-01",
-    "forecast_level": -211.31,
+    "forecast_level": -211.19,
     "range": 12
   },
   {
     "date": "2026-01-01",
-    "forecast_level": -211.32,
+    "forecast_level": -211.21,
     "range": 12
   },
   {
     "date": "2026-02-01",
-    "forecast_level": -211.32,
+    "forecast_level": -211.23,
     "range": 12
   },
   {
     "date": "2026-03-01",
-    "forecast_level": -211.32,
+    "forecast_level": -211.25,
     "range": 12
   },
   {
     "date": "2026-04-01",
-    "forecast_level": -211.33,
+    "forecast_level": -211.27,
     "range": 12
   },
   {
     "date": "2026-05-01",
-    "forecast_level": -211.33,
+    "forecast_level": -211.30,
     "range": 12
   },
   {

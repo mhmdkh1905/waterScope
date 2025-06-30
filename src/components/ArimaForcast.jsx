@@ -14,24 +14,24 @@ import {
 const metrics = [
 	{
 		label: "3-Month Forecast",
-		mape: 0.0,
-		accuracy: 100.0,
+		mape: 5.0,
+		accuracy: 95.0,
 		color: "green",
 		description:
 			"Short-term forecasts are highly accurate due to minimal uncertainty.",
 	},
 	{
 		label: "6-Month Forecast",
-		mape: 0.01,
-		accuracy: 99.99,
+		mape: 17.0,
+		accuracy: 83.0,
 		color: "blue",
 		description:
 			"Medium-term predictions maintain strong accuracy with slight error.",
 	},
 	{
 		label: "12-Month Forecast",
-		mape: 0.01,
-		accuracy: 99.99,
+		mape: 33.0,
+		accuracy: 67.0,
 		color: "orange",
 		description:
 			"Long-term forecasts are stable, though minor deviations may appear.",

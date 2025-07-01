@@ -48,9 +48,9 @@ const TemperatureVsWaterLevel = () => {
 			<div className="text-gray-600 mt-3 space-y-1">
 				<p><strong>Model used:</strong> Simple Linear Regression</p>
 				<p><strong>Description:</strong> Predicts water level based on average yearly temperature.</p>
-				<p><strong>Equation:</strong> <code>level = 0.344 × temp - 219.46</code></p>
+				<p><strong>Equation:</strong> <code>level = -0.344 × temp - 219.46</code></p>
 				<p><strong>R²:</strong> 0.038 → The model explains ~3.8% of the variation in water level.</p>
-				<p><strong>Pearson’s r:</strong> 0.19 → Very weak correlation between temperature and water level.</p>
+				<p><strong>Pearson’s r:</strong> -0.19 → Very weak correlation between temperature and water level.</p>
 				<p>This suggests temperature alone is not a strong predictor of water level changes.</p>
 			</div>
 		</section>

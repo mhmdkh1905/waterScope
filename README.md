@@ -1,12 +1,50 @@
-# React + Vite
+# 💧 WaterScope – Climate Impact on the Sea of Galilee
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+WaterScope is a web-based system that analyzes how weather patterns—such as rainfall, temperature, and humidity—affect the water levels of the Sea of Galilee (Lake Kinneret).  
+The system combines real data, forecasting models, and visualizations to support environmental analysis and decision-making.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌍 Project Goals
 
-## Expanding the ESLint configuration
+- Collect real-world climate and hydrological data related to the Sea of Galilee.
+- Analyze the impact of rainfall, temperature, and humidity on water levels using statistical and machine learning models.
+- Present results interactively through a modern React-based interface using Recharts and Leaflet maps.
+- Provide accurate water level forecasts using ARIMA time-series modeling.
+- Support users (e.g., students, researchers, environmentalists) in understanding long-term trends and factors.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔧 Technologies Used
+
+| Stack        | Tools                                         |
+|--------------|-----------------------------------------------|
+| **Frontend** | React, Tailwind CSS, Recharts, Leaflet        |
+| **Backend (Analysis)** | Python, Google Colab, pandas, scikit-learn, matplotlib |
+| **Data Format** | JSON, CSV                                   |
+| **Deployment** | GitHub Pages (or local run)                 |
+
+---
+
+## 📁 Project Structure
+├── public/
+├── src/
+│ ├── components/ # Pages and UI sections
+│ ├── charts/ # Chart components for each analysis
+│ ├── cards/ # Reusable UI cards (e.g., InsightBox, MiniMap)
+│ ├── data/ # JSON datasets (rainfall, water level, forecasts, etc.)
+│ └── main.jsx # Router and main entry point
+├── README.md
+
+---
+
+## 📈 Features
+
+- 📊 **Trend Analysis**: Long-term trends in rainfall, temperature, humidity, and water levels.
+- 🔮 **Forecasting**: 3, 6, and 12-month water level forecasts using ARIMA.
+- 🌡 **Climate Impact**: Regression models showing how weather variables impact the lake.
+- 🧠 **PCA Analysis**: Principal Component Analysis to identify key influencing factors.
+- 🗺 **Map View**: Interactive Leaflet-based mini map of the Sea of Galilee.
+- 📂 **Data Downloads**: Access and download all relevant JSON datasets.
+
+---

@@ -26,17 +26,6 @@ The system combines real data, forecasting models, and visualizations to support
 
 ---
 
-## 📁 Project Structure
-├── public/
-├── src/
-│ ├── components/ # Pages and UI sections
-│ ├── charts/ # Chart components for each analysis
-│ ├── cards/ # Reusable UI cards (e.g., InsightBox, MiniMap)
-│ ├── data/ # JSON datasets (rainfall, water level, forecasts, etc.)
-│ └── main.jsx # Router and main entry point
-├── README.md
-
----
 
 ## 📈 Features
 
